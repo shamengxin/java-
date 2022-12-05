@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d182401c-687c-40e2-82e3-dad9ec022ae9" name="变更" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyStack/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyStack/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyStack/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyStack/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyStack/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyStack/MyStack.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyStack/src/com/shemengxin/java/circularlinkedlist/Boy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyStack/src/com/shemengxin/java/circularlinkedlist/CircleSingleLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyStack/src/com/shemengxin/java/doublylinked/BookNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyStack/src/com/shemengxin/java/doublylinked/DualLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyStack/src/com/shemengxin/java/doublylinked/LinkedTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyStack/src/com/shemengxin/java/linked/DLLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyStack/src/com/shemengxin/java/linked/GoodsNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyStack/src/com/shemengxin/java/linked/LinkedTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyStack/src/com/shemengxin/java/mystack/ArrayStack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyStack/src/com/shemengxin/java/mystack/Test1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyStack/src/com/shemengxin/java/mystack/Test2.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2ITSusQd9vT0oQGfDTMelWxN1SL" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "jdk.selected.JAVA_MODULE": "13",
+    "last_opened_file_path": "B:/java数据结构",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "模块",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration default="true" type="JetRunConfigurationType">
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="d182401c-687c-40e2-82e3-dad9ec022ae9" name="变更" comment="" />
+      <created>1670204305694</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1670204305694</updated>
+      <workItem from="1670204306812" duration="614000" />
+      <workItem from="1670205060629" duration="423000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/java-" />
+    </ignored-roots>
+  </component>
+</project>
