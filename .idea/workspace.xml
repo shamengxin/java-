@@ -4,32 +4,37 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d182401c-687c-40e2-82e3-dad9ec022ae9" name="变更" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MyStack/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MyStack/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MyStack/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MyStack/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MyStack/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MyStack/MyStack.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MyStack/src/com/shemengxin/java/circularlinkedlist/Boy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MyStack/src/com/shemengxin/java/circularlinkedlist/CircleSingleLinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MyStack/src/com/shemengxin/java/doublylinked/BookNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MyStack/src/com/shemengxin/java/doublylinked/DualLinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MyStack/src/com/shemengxin/java/doublylinked/LinkedTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MyStack/src/com/shemengxin/java/linked/DLLinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MyStack/src/com/shemengxin/java/linked/GoodsNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MyStack/src/com/shemengxin/java/linked/LinkedTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MyStack/src/com/shemengxin/java/mystack/ArrayStack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MyStack/src/com/shemengxin/java/mystack/Test1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MyStack/src/com/shemengxin/java/mystack/Test2.java" afterDir="false" />
+    <list default="true" id="d182401c-687c-40e2-82e3-dad9ec022ae9" name="变更" comment="12-5">
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyStack/src/com/shemengxin/java/array/SparseArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyStack/src/com/shemengxin/java/maze/MazeApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyStack/src/com/shemengxin/java/queue/ArrayQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyStack/src/com/shemengxin/java/queue/TestApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/MyStack/com/shemengxin/java/array/SparseArray.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/MyStack/com/shemengxin/java/circularlinkedlist/Boy.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/MyStack/com/shemengxin/java/circularlinkedlist/CircleSingleLinkedList.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/MyStack/com/shemengxin/java/doublylinked/BookNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/MyStack/com/shemengxin/java/doublylinked/DualLinkedList.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/MyStack/com/shemengxin/java/doublylinked/LinkedTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/MyStack/com/shemengxin/java/linked/DLLinkedList.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/MyStack/com/shemengxin/java/linked/GoodsNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/MyStack/com/shemengxin/java/linked/LinkedTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/MyStack/com/shemengxin/java/mystack/ArrayStack.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/MyStack/com/shemengxin/java/mystack/Test1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/MyStack/com/shemengxin/java/mystack/Test2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -38,29 +43,73 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2ITSusQd9vT0oQGfDTMelWxN1SL" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "jdk.selected.JAVA_MODULE": "13",
-    "last_opened_file_path": "B:/java数据结构",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "project.structure.last.edited": "模块",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;13&quot;,
+    &quot;last_opened_file_path&quot;: &quot;B:/java数据结构&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;项目&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;
   }
-}]]></component>
-  <component name="RunManager">
+}</component>
+  <component name="RunManager" selected="应用程序.MazeApp">
+    <configuration name="MazeApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.shemengxin.java.maze.MazeApp" />
+      <module name="MyStack" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.shemengxin.java.maze.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SparseArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.shemengxin.java.array.SparseArray" />
+      <module name="MyStack" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.shemengxin.java.array.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.shemengxin.java.queue.TestApp" />
+      <module name="MyStack" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.shemengxin.java.queue.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="JetRunConfigurationType">
       <method v="2">
         <option name="Make" enabled="true" />
@@ -72,6 +121,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="应用程序.MazeApp" />
+        <item itemvalue="应用程序.TestApp" />
+        <item itemvalue="应用程序.SparseArray" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -82,8 +138,18 @@
       <option name="presentableId" value="Default" />
       <updated>1670204305694</updated>
       <workItem from="1670204306812" duration="614000" />
-      <workItem from="1670205060629" duration="423000" />
+      <workItem from="1670205060629" duration="522000" />
+      <workItem from="1670212451427" duration="3761000" />
+      <workItem from="1670728263969" duration="5106000" />
     </task>
+    <task id="LOCAL-00001" summary="12-5">
+      <created>1670205512882</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1670205512882</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -101,8 +167,11 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <ignored-roots>
       <path value="$PROJECT_DIR$/java-" />
     </ignored-roots>
+    <MESSAGE value="12-5" />
+    <option name="LAST_COMMIT_MESSAGE" value="12-5" />
   </component>
 </project>
