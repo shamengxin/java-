@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d182401c-687c-40e2-82e3-dad9ec022ae9" name="变更" comment="12-25">
-      <change afterPath="$PROJECT_DIR$/MyStack/src/com/shemengxin/java/sort/BubbleSort.java" afterDir="false" />
+    <list default="true" id="d182401c-687c-40e2-82e3-dad9ec022ae9" name="变更" comment="12-28">
+      <change afterPath="$PROJECT_DIR$/MyStack/src/com/shemengxin/java/sort/SelectSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -34,27 +35,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;13&quot;,
-    &quot;last_opened_file_path&quot;: &quot;B:/java数据结构&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;项目&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "jdk.selected.JAVA_MODULE": "13",
+    "last_opened_file_path": "B:/java数据结构",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "库",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "File.Encoding"
   }
-}</component>
-  <component name="RunManager" selected="应用程序.BubbleSort">
+}]]></component>
+  <component name="RunManager" selected="应用程序.SelectSort">
     <configuration name="BasicSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.shemengxin.java.sort.BasicSort" />
       <module name="MyStack" />
@@ -94,12 +95,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SparseArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.shemengxin.java.array.SparseArray" />
+    <configuration name="SelectSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.shemengxin.java.sort.SelectSort" />
       <module name="MyStack" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.shemengxin.java.array.*" />
+          <option name="PATTERN" value="com.shemengxin.java.sort.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -133,11 +134,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="应用程序.SelectSort" />
         <item itemvalue="应用程序.BubbleSort" />
         <item itemvalue="应用程序.BasicSort" />
         <item itemvalue="应用程序.MazeApp" />
         <item itemvalue="应用程序.TestApp" />
-        <item itemvalue="应用程序.SparseArray" />
       </list>
     </recent_temporary>
   </component>
@@ -155,7 +156,8 @@
       <workItem from="1670728263969" duration="5227000" />
       <workItem from="1671933056524" duration="2758000" />
       <workItem from="1672022249026" duration="17000" />
-      <workItem from="1672193604324" duration="945000" />
+      <workItem from="1672193604324" duration="1067000" />
+      <workItem from="1673229909794" duration="1897000" />
     </task>
     <task id="LOCAL-00001" summary="12-5">
       <created>1670205512882</created>
@@ -178,7 +180,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671935757591</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="12-28">
+      <created>1672194666992</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1672194666992</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -203,6 +212,7 @@
     <MESSAGE value="12-5" />
     <MESSAGE value="12-11" />
     <MESSAGE value="12-25" />
-    <option name="LAST_COMMIT_MESSAGE" value="12-25" />
+    <MESSAGE value="12-28" />
+    <option name="LAST_COMMIT_MESSAGE" value="12-28" />
   </component>
 </project>
