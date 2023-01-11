@@ -37,11 +37,11 @@ public class InsertSort {
     //插入排序
     public static void insertSort(int[] arr) {
 
+        int insertVal=0;
+        int insertIndex=0;
         //使用for循环进行代码简化
         for (int i = 1; i < arr.length; i++) {
 
-            int insertVal=0;
-            int insertIndex=0;
             //定义待插入的数
             insertVal = arr[i];
             //即arr[1]的前面这个数的下标
