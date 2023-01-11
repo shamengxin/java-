@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d182401c-687c-40e2-82e3-dad9ec022ae9" name="变更" comment="1-9">
-      <change afterPath="$PROJECT_DIR$/MyStack/src/com/shemengxin/java/sort/InsertSort.java" afterDir="false" />
+    <list default="true" id="d182401c-687c-40e2-82e3-dad9ec022ae9" name="变更" comment="1-10">
+      <change afterPath="$PROJECT_DIR$/MyStack/src/com/shemengxin/java/sort/ShellSort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyStack/src/com/shemengxin/java/sort/InsertSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/MyStack/src/com/shemengxin/java/sort/InsertSort.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +55,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;File.Encoding&quot;
   }
 }</component>
-  <component name="RunManager" selected="应用程序.InsertSort">
+  <component name="RunManager" selected="应用程序.ShellSort">
     <configuration name="BasicSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.shemengxin.java.sort.BasicSort" />
       <module name="MyStack" />
@@ -94,12 +95,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MazeApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.shemengxin.java.maze.MazeApp" />
+    <configuration name="SelectSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.shemengxin.java.sort.SelectSort" />
       <module name="MyStack" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.shemengxin.java.maze.*" />
+          <option name="PATTERN" value="com.shemengxin.java.sort.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -107,8 +108,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SelectSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.shemengxin.java.sort.SelectSort" />
+    <configuration name="ShellSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.shemengxin.java.sort.ShellSort" />
       <module name="MyStack" />
       <extension name="coverage">
         <pattern>
@@ -133,11 +134,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="应用程序.ShellSort" />
         <item itemvalue="应用程序.InsertSort" />
         <item itemvalue="应用程序.SelectSort" />
         <item itemvalue="应用程序.BubbleSort" />
         <item itemvalue="应用程序.BasicSort" />
-        <item itemvalue="应用程序.MazeApp" />
       </list>
     </recent_temporary>
   </component>
@@ -158,7 +159,8 @@
       <workItem from="1672193604324" duration="1067000" />
       <workItem from="1673229909794" duration="1897000" />
       <workItem from="1673231907505" duration="79000" />
-      <workItem from="1673317232828" duration="1914000" />
+      <workItem from="1673317232828" duration="2202000" />
+      <workItem from="1673404399180" duration="4961000" />
     </task>
     <task id="LOCAL-00001" summary="12-5">
       <created>1670205512882</created>
@@ -195,7 +197,21 @@
       <option name="project" value="LOCAL" />
       <updated>1673231951565</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="1-10 插入排序">
+      <created>1673324157554</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1673324157554</updated>
+    </task>
+    <task id="LOCAL-00007" summary="1-10">
+      <created>1673324164231</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1673324164231</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -222,6 +238,8 @@
     <MESSAGE value="12-25" />
     <MESSAGE value="12-28" />
     <MESSAGE value="1-9" />
-    <option name="LAST_COMMIT_MESSAGE" value="1-9" />
+    <MESSAGE value="1-10 插入排序" />
+    <MESSAGE value="1-10" />
+    <option name="LAST_COMMIT_MESSAGE" value="1-10" />
   </component>
 </project>
