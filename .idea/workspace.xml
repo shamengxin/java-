@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d182401c-687c-40e2-82e3-dad9ec022ae9" name="变更" comment="1-10">
-      <change afterPath="$PROJECT_DIR$/MyStack/src/com/shemengxin/java/sort/ShellSort.java" afterDir="false" />
+    <list default="true" id="d182401c-687c-40e2-82e3-dad9ec022ae9" name="变更" comment="1-11">
+      <change afterPath="$PROJECT_DIR$/MyStack/src/com/shemengxin/java/sort/QuickSort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyStack/src/com/shemengxin/java/sort/InsertSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/MyStack/src/com/shemengxin/java/sort/InsertSort.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,20 +54,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;File.Encoding&quot;
   }
 }</component>
-  <component name="RunManager" selected="应用程序.ShellSort">
-    <configuration name="BasicSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.shemengxin.java.sort.BasicSort" />
-      <module name="MyStack" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.shemengxin.java.sort.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="应用程序.QuickSort">
     <configuration name="BubbleSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.shemengxin.java.sort.BubbleSort" />
       <module name="MyStack" />
@@ -84,6 +70,19 @@
     </configuration>
     <configuration name="InsertSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.shemengxin.java.sort.InsertSort" />
+      <module name="MyStack" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.shemengxin.java.sort.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="QuickSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.shemengxin.java.sort.QuickSort" />
       <module name="MyStack" />
       <extension name="coverage">
         <pattern>
@@ -134,11 +133,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="应用程序.QuickSort" />
         <item itemvalue="应用程序.ShellSort" />
         <item itemvalue="应用程序.InsertSort" />
         <item itemvalue="应用程序.SelectSort" />
         <item itemvalue="应用程序.BubbleSort" />
-        <item itemvalue="应用程序.BasicSort" />
       </list>
     </recent_temporary>
   </component>
@@ -160,7 +159,8 @@
       <workItem from="1673229909794" duration="1897000" />
       <workItem from="1673231907505" duration="79000" />
       <workItem from="1673317232828" duration="2202000" />
-      <workItem from="1673404399180" duration="4961000" />
+      <workItem from="1673404399180" duration="5114000" />
+      <workItem from="1673664211161" duration="2433000" />
     </task>
     <task id="LOCAL-00001" summary="12-5">
       <created>1670205512882</created>
@@ -211,7 +211,28 @@
       <option name="project" value="LOCAL" />
       <updated>1673324164231</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="1-11 插入排序">
+      <created>1673409498433</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1673409498433</updated>
+    </task>
+    <task id="LOCAL-00009" summary="1-11 希尔排序">
+      <created>1673409512320</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1673409512320</updated>
+    </task>
+    <task id="LOCAL-00010" summary="1-11">
+      <created>1673409525506</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1673409525506</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -240,6 +261,26 @@
     <MESSAGE value="1-9" />
     <MESSAGE value="1-10 插入排序" />
     <MESSAGE value="1-10" />
-    <option name="LAST_COMMIT_MESSAGE" value="1-10" />
+    <MESSAGE value="1-11 插入排序" />
+    <MESSAGE value="1-11 希尔排序" />
+    <MESSAGE value="1-11" />
+    <option name="LAST_COMMIT_MESSAGE" value="1-11" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/MyStack/src/com/shemengxin/java/sort/QuickSort.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="arr[r]" language="JAVA" />
+        <watch expression="arr[l]" language="JAVA" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>
