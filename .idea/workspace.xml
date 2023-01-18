@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d182401c-687c-40e2-82e3-dad9ec022ae9" name="变更" comment="1-15 归并排序">
-      <change afterPath="$PROJECT_DIR$/MyStack/src/com/shemengxin/java/sort/RadixSort.java" afterDir="false" />
+    <list default="true" id="d182401c-687c-40e2-82e3-dad9ec022ae9" name="变更" comment="1-17">
+      <change afterPath="$PROJECT_DIR$/MyStack/src/com/shemengxin/java/search/BinarySearch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyStack/src/com/shemengxin/java/search/InsertValue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyStack/src/com/shemengxin/java/search/SeqSearch.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MyStack/com/shemengxin/java/sort/MergetSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MyStack/com/shemengxin/java/sort/MergetSort.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,13 +56,13 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;File.Encoding&quot;
   }
 }</component>
-  <component name="RunManager" selected="应用程序.RadixSort">
-    <configuration name="InsertSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.shemengxin.java.sort.InsertSort" />
+  <component name="RunManager" selected="应用程序.InsertValue">
+    <configuration name="BinarySearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.shemengxin.java.search.BinarySearch" />
       <module name="MyStack" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.shemengxin.java.sort.*" />
+          <option name="PATTERN" value="com.shemengxin.java.search.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -69,25 +70,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MergetSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.shemengxin.java.sort.MergetSort" />
+    <configuration name="InsertValue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.shemengxin.java.search.InsertValue" />
       <module name="MyStack" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.shemengxin.java.sort.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="QuickSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.shemengxin.java.sort.QuickSort" />
-      <module name="MyStack" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.shemengxin.java.sort.*" />
+          <option name="PATTERN" value="com.shemengxin.java.search.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -101,6 +89,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.shemengxin.java.sort.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SeqSearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.shemengxin.java.search.SeqSearch" />
+      <module name="MyStack" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.shemengxin.java.search.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -134,11 +135,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="应用程序.RadixSort" />
-        <item itemvalue="应用程序.MergetSort" />
-        <item itemvalue="应用程序.QuickSort" />
-        <item itemvalue="应用程序.ShellSort" />
-        <item itemvalue="应用程序.InsertSort" />
+        <item itemvalue="应用程序.InsertValue" />
+        <item itemvalue="应用程序.BinarySearch" />
+        <item itemvalue="应用程序.SeqSearch" />
       </list>
     </recent_temporary>
   </component>
@@ -165,7 +164,9 @@
       <workItem from="1673747790105" duration="24000" />
       <workItem from="1673748380003" duration="211000" />
       <workItem from="1673750572257" duration="3605000" />
-      <workItem from="1673922518964" duration="2538000" />
+      <workItem from="1673922518964" duration="2814000" />
+      <workItem from="1674008262008" duration="19000" />
+      <workItem from="1674008302836" duration="3131000" />
     </task>
     <task id="LOCAL-00001" summary="12-5">
       <created>1670205512882</created>
@@ -279,7 +280,21 @@
       <option name="project" value="LOCAL" />
       <updated>1673754196538</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="1-15 基数排序">
+      <created>1673925471280</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1673925471280</updated>
+    </task>
+    <task id="LOCAL-00018" summary="1-17">
+      <created>1673925484757</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1673925484757</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -314,7 +329,9 @@
     <MESSAGE value="1-14 快速排序" />
     <MESSAGE value="1-14" />
     <MESSAGE value="1-15 归并排序" />
-    <option name="LAST_COMMIT_MESSAGE" value="1-15 归并排序" />
+    <MESSAGE value="1-15 基数排序" />
+    <MESSAGE value="1-17" />
+    <option name="LAST_COMMIT_MESSAGE" value="1-17" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
