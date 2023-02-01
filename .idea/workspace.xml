@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d182401c-687c-40e2-82e3-dad9ec022ae9" name="变更" comment="1-17">
-      <change afterPath="$PROJECT_DIR$/MyStack/src/com/shemengxin/java/search/BinarySearch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MyStack/src/com/shemengxin/java/search/InsertValue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MyStack/src/com/shemengxin/java/search/SeqSearch.java" afterDir="false" />
+    <list default="true" id="d182401c-687c-40e2-82e3-dad9ec022ae9" name="变更" comment="1-18">
+      <change afterPath="$PROJECT_DIR$/MyStack/src/com/shemengxin/java/search/FibonacciSearch.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MyStack/com/shemengxin/java/search/InsertValue.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MyStack/com/shemengxin/java/search/InsertValue.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,9 +55,22 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;File.Encoding&quot;
   }
 }</component>
-  <component name="RunManager" selected="应用程序.InsertValue">
+  <component name="RunManager" selected="应用程序.FibonacciSearch">
     <configuration name="BinarySearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.shemengxin.java.search.BinarySearch" />
+      <module name="MyStack" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.shemengxin.java.search.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FibonacciSearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.shemengxin.java.search.FibonacciSearch" />
       <module name="MyStack" />
       <extension name="coverage">
         <pattern>
@@ -76,19 +88,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.shemengxin.java.search.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RadixSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.shemengxin.java.sort.RadixSort" />
-      <module name="MyStack" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.shemengxin.java.sort.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -135,6 +134,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="应用程序.FibonacciSearch" />
         <item itemvalue="应用程序.InsertValue" />
         <item itemvalue="应用程序.BinarySearch" />
         <item itemvalue="应用程序.SeqSearch" />
@@ -166,7 +166,8 @@
       <workItem from="1673750572257" duration="3605000" />
       <workItem from="1673922518964" duration="2814000" />
       <workItem from="1674008262008" duration="19000" />
-      <workItem from="1674008302836" duration="3131000" />
+      <workItem from="1674008302836" duration="3383000" />
+      <workItem from="1675218192174" duration="2825000" />
     </task>
     <task id="LOCAL-00001" summary="12-5">
       <created>1670205512882</created>
@@ -294,7 +295,35 @@
       <option name="project" value="LOCAL" />
       <updated>1673925484757</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="1-18 二分查找">
+      <created>1674011856742</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1674011856742</updated>
+    </task>
+    <task id="LOCAL-00020" summary="1-18 插值查找 二分查找的一种改进">
+      <created>1674011924358</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1674011924358</updated>
+    </task>
+    <task id="LOCAL-00021" summary="1-18 线性查找">
+      <created>1674011938137</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1674011938137</updated>
+    </task>
+    <task id="LOCAL-00022" summary="1-18">
+      <created>1674011947348</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1674011947348</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -331,7 +360,11 @@
     <MESSAGE value="1-15 归并排序" />
     <MESSAGE value="1-15 基数排序" />
     <MESSAGE value="1-17" />
-    <option name="LAST_COMMIT_MESSAGE" value="1-17" />
+    <MESSAGE value="1-18 二分查找" />
+    <MESSAGE value="1-18 插值查找 二分查找的一种改进" />
+    <MESSAGE value="1-18 线性查找" />
+    <MESSAGE value="1-18" />
+    <option name="LAST_COMMIT_MESSAGE" value="1-18" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
