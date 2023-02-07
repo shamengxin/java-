@@ -18,144 +18,29 @@ public class BinaryTreeDemo {
         node3.setLeft(node5);
         binaryTree.setRoot(root);
 
-        //测试
+        /*//测试
         System.out.println("前序遍历");
         binaryTree.preOrder();
         System.out.println("中序遍历");
         binaryTree.infixOrder();
         System.out.println("后序遍历");
         binaryTree.postOrder();
+
+        //前序遍历查找
+        System.out.println("前序遍历查找~~");
+        HeroNode resNode = binaryTree.preOrderSearch(5);
+        if (resNode != null) {
+            System.out.println("找到了，信息为no=" + resNode.getNo() + "，name=" + resNode.getName());
+        } else {
+            System.out.println("没有找到no=5的英雄");
+        }*/
+
+        //测试删除结点
+        System.out.println("删除前，前序遍历");
+        binaryTree.preOrder();
+        binaryTree.delNode(5);
+        System.out.println("删除后，前序遍历");
+        binaryTree.preOrder();
     }
 }
 
-//定义BinaryTree 二叉树
-class BinaryTree {
-    private HeroNode root;
-
-    public void setRoot(HeroNode root) {
-        this.root = root;
-    }
-
-    //前序遍历
-    public void preOrder() {
-        if (this.root != null) {
-            this.root.preOrder();
-        } else {
-            System.out.println("二叉树为空，无法遍历");
-        }
-    }
-
-    //中序遍历
-    public void infixOrder() {
-        if (this.root != null) {
-            this.root.infixOrder();
-        } else {
-            System.out.println("二叉树为空，无法遍历");
-        }
-    }
-
-    //后序遍历
-    public void postOrder() {
-        if (this.root != null) {
-            this.root.postOrder();
-        } else {
-            System.out.println("二叉树为空，无法遍历");
-        }
-    }
-
-}
-
-//先创建HeroNode结点
-class HeroNode {
-    private int no;
-    private String name;
-    private HeroNode left;//默认为空
-    private HeroNode right;//默认为空
-
-    public HeroNode(int no, String name) {
-        this.no = no;
-        this.name = name;
-    }
-
-    public int getNo() {
-        return no;
-    }
-
-    public void setNo(int no) {
-        this.no = no;
-    }
-
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    public HeroNode getLeft() {
-        return left;
-    }
-
-    public void setLeft(HeroNode left) {
-        this.left = left;
-    }
-
-    public HeroNode getRight() {
-        return right;
-    }
-
-    public void setRight(HeroNode right) {
-        this.right = right;
-    }
-
-    @Override
-    public String toString() {
-        return "HeroNode{" +
-                "no=" + no +
-                ", name='" + name + '\'' +
-                '}';
-    }
-
-    //编写前序遍历的方法
-    public void preOrder() {
-        //先输出父节点
-        System.out.println(this);
-        //向左遍历
-        if (this.left != null) {
-            this.left.preOrder();
-        }
-        //向右遍历
-        if (this.right != null) {
-            this.right.preOrder();
-        }
-    }
-
-    //中序遍历
-    public void infixOrder() {
-        //向左遍历
-        if (this.left != null) {
-            this.left.infixOrder();
-        }
-        //先输出父节点
-        System.out.println(this);
-        //向右遍历
-        if (this.right != null) {
-            this.right.infixOrder();
-        }
-    }
-
-    //后续遍历
-    public void postOrder() {
-        //向左遍历
-        if (this.left != null) {
-            this.left.postOrder();
-        }
-        //向右遍历
-        if (this.right != null) {
-            this.right.postOrder();
-        }
-        //先输出父节点
-        System.out.println(this);
-    }
-}

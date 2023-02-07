@@ -4,9 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d182401c-687c-40e2-82e3-dad9ec022ae9" name="变更" comment="2-2">
-      <change afterPath="$PROJECT_DIR$/MyStack/src/com/shemengxin/java/tree/BinaryTreeDemo.java" afterDir="false" />
+    <list default="true" id="d182401c-687c-40e2-82e3-dad9ec022ae9" name="变更" comment="2-3">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyStack/src/com/shemengxin/java/tree/ArrBinaryTreeDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyStack/src/com/shemengxin/java/tree/BinaryTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyStack/src/com/shemengxin/java/tree/HeroNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyStack/src/com/shemengxin/java/tree/ThreadedBinaryTreeDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyStack/src/com/shemengxin/java/tree/BinaryTreeDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/MyStack/src/com/shemengxin/java/tree/BinaryTreeDemo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,13 +59,18 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;File.Encoding&quot;
   }
 }</component>
-  <component name="RunManager" selected="应用程序.BinaryTreeDemo">
-    <configuration name="BinarySearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.shemengxin.java.search.BinarySearch" />
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.shemengxin.java.tree" />
+    </key>
+  </component>
+  <component name="RunManager" selected="应用程序.ThreadedBinaryTreeDemo">
+    <configuration name="ArrBinaryTreeDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.shemengxin.java.tree.ArrBinaryTreeDemo" />
       <module name="MyStack" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.shemengxin.java.search.*" />
+          <option name="PATTERN" value="com.shemengxin.java.tree.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -81,12 +91,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FibonacciSearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.shemengxin.java.search.FibonacciSearch" />
+    <configuration name="BinaryTreeDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.shemengxin.java.tree.BinaryTreeDemo" />
       <module name="MyStack" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.shemengxin.java.search.*" />
+          <option name="PATTERN" value="com.shemengxin.java.tree.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -107,12 +117,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InsertValue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.shemengxin.java.search.InsertValue" />
+    <configuration name="ThreadedBinaryTreeDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.shemengxin.java.tree.ThreadedBinaryTreeDemo" />
       <module name="MyStack" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.shemengxin.java.search.*" />
+          <option name="PATTERN" value="com.shemengxin.java.tree.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -133,11 +143,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="应用程序.ThreadedBinaryTreeDemo" />
+        <item itemvalue="应用程序.BinaryTreeDemo (1)" />
+        <item itemvalue="应用程序.ArrBinaryTreeDemo" />
         <item itemvalue="应用程序.BinaryTreeDemo" />
         <item itemvalue="应用程序.HashTabDemo" />
-        <item itemvalue="应用程序.FibonacciSearch" />
-        <item itemvalue="应用程序.InsertValue" />
-        <item itemvalue="应用程序.BinarySearch" />
       </list>
     </recent_temporary>
   </component>
@@ -169,7 +179,8 @@
       <workItem from="1674008302836" duration="3383000" />
       <workItem from="1675218192174" duration="2927000" />
       <workItem from="1675310329111" duration="3874000" />
-      <workItem from="1675391091138" duration="1067000" />
+      <workItem from="1675391091138" duration="1253000" />
+      <workItem from="1675738061240" duration="6586000" />
     </task>
     <task id="LOCAL-00001" summary="12-5">
       <created>1670205512882</created>
@@ -346,7 +357,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675314674065</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="2-3">
+      <created>1675392310157</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1675392310157</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -390,7 +408,8 @@
     <MESSAGE value="2-1 斐波那契查找算法" />
     <MESSAGE value="2-1" />
     <MESSAGE value="2-2" />
-    <option name="LAST_COMMIT_MESSAGE" value="2-2" />
+    <MESSAGE value="2-3" />
+    <option name="LAST_COMMIT_MESSAGE" value="2-3" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
