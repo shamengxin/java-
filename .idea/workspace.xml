@@ -4,14 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d182401c-687c-40e2-82e3-dad9ec022ae9" name="变更" comment="2-3">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MyStack/src/com/shemengxin/java/tree/ArrBinaryTreeDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MyStack/src/com/shemengxin/java/tree/BinaryTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MyStack/src/com/shemengxin/java/tree/HeroNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MyStack/src/com/shemengxin/java/tree/ThreadedBinaryTreeDemo.java" afterDir="false" />
+    <list default="true" id="d182401c-687c-40e2-82e3-dad9ec022ae9" name="变更" comment="2-7">
+      <change afterPath="$PROJECT_DIR$/MyStack/src/com/shemengxin/java/tree/HeapSort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyStack/src/com/shemengxin/java/tree/BinaryTreeDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/MyStack/src/com/shemengxin/java/tree/BinaryTreeDemo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,7 +59,7 @@
       <recent name="com.shemengxin.java.tree" />
     </key>
   </component>
-  <component name="RunManager" selected="应用程序.ThreadedBinaryTreeDemo">
+  <component name="RunManager" selected="应用程序.HeapSort">
     <configuration name="ArrBinaryTreeDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.shemengxin.java.tree.ArrBinaryTreeDemo" />
       <module name="MyStack" />
@@ -117,6 +112,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="HeapSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.shemengxin.java.tree.HeapSort" />
+      <module name="MyStack" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.shemengxin.java.tree.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ThreadedBinaryTreeDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.shemengxin.java.tree.ThreadedBinaryTreeDemo" />
       <module name="MyStack" />
@@ -143,8 +151,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="应用程序.HeapSort" />
         <item itemvalue="应用程序.ThreadedBinaryTreeDemo" />
-        <item itemvalue="应用程序.BinaryTreeDemo (1)" />
         <item itemvalue="应用程序.ArrBinaryTreeDemo" />
         <item itemvalue="应用程序.BinaryTreeDemo" />
         <item itemvalue="应用程序.HashTabDemo" />
@@ -180,7 +188,8 @@
       <workItem from="1675218192174" duration="2927000" />
       <workItem from="1675310329111" duration="3874000" />
       <workItem from="1675391091138" duration="1253000" />
-      <workItem from="1675738061240" duration="6586000" />
+      <workItem from="1675738061240" duration="6761000" />
+      <workItem from="1676082280153" duration="3617000" />
     </task>
     <task id="LOCAL-00001" summary="12-5">
       <created>1670205512882</created>
@@ -364,7 +373,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675392310157</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="2-7">
+      <created>1675748821642</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1675748821642</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -409,7 +425,8 @@
     <MESSAGE value="2-1" />
     <MESSAGE value="2-2" />
     <MESSAGE value="2-3" />
-    <option name="LAST_COMMIT_MESSAGE" value="2-3" />
+    <MESSAGE value="2-7" />
+    <option name="LAST_COMMIT_MESSAGE" value="2-7" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
